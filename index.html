@@ -1,24 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea-House</title>
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- fontawesome cdn -->
+    <script src="https://kit.fontawesome.com/0a4b9bcbe6.js" crossorigin="anonymous"></script>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
 </head>
+
 <body>
     <!-- header part -->
-     <header>
+    <header class="flex ml-56 mr-20 mt-16">
+        <div>
+            <h1 class="text-7xl font-bold">It's good <br>tea time at The <br> Tea House</h1>
+            <p class="text-lg text-gray-500 font-medium my-7">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class="text-xl font-bold py-4 px-5 text-center text-white rounded-lg bg-gradient-to-r from-orange-500 to-red-500">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+        </div>
+        <div>
+            <img class="w-full" src="images/banner.png" alt="">
+        </div>
+    </header>
 
-     </header>
+    <!-- main part -->
+    <main>
 
-     <!-- main part -->
-      <main>
+    </main>
 
-      </main>
+    <!-- footer part -->
+    <footer>
 
-      <!-- footer part -->
-       <footer>
-        
-       </footer>
+    </footer>
 </body>
+
 </html>
